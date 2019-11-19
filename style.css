@@ -1,10 +1,22 @@
-body    {background: black;
+body    {
+    background: black;
 }
-.main  {background: white; width: 300px; height: 375px; margin: auto;position: absolute; top: 20%; left: 20%;
-    padding: none; font-family: 'Indie Flower';
-; font-size: 6px;
+
+.main  {
+    background: white; 
+    width: 300px; 
+    height: 375px; 
+    margin: auto;
+    position: absolute; 
+    top: 20%; left: 20%;
+    padding: none; 
+    font-family: 'Indie Flower';
+    font-size: 6px;
 }
-.image {align-content: center; max-width: 450px; 
+
+.image {
+    align-content: center; 
+    max-width: 450px; 
 }
 
 .header {
@@ -34,16 +46,28 @@ body    {background: black;
     width: 5%;
 }
 .icons {
-    display: block; padding-top: 5px;
+    display: block; 
+    padding-top: 5px;
 }
+
 .left-icons {
-    width: 90%; display: inline-block; font-size: 20px; padding-left: 5px;
+    width: 90%; 
+    display: inline-block; 
+    font-size: 20px; 
+    padding-left: 5px;
 }
+
 .right-icon {
-    width: 5%; display: inline-block; font-size: 20px;
+    width: 5%; 
+    display: inline-block; 
+    font-size: 20px;
 }
-.footer {font-size: 10px; padding: 10px;
+
+.footer {
+    font-size: 10px; 
+    padding: 10px;
 }
+
 img {
   max-width: 100%;
   height: auto;
