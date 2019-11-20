@@ -4,7 +4,7 @@ body    {
 
 .main  {
     background: white; 
-    width: 400px; 
+    width: 350px; 
     height: 475px; 
     margin: auto;
     position: absolute;
@@ -26,7 +26,8 @@ body    {
 
 .left-header {
     /* float: left; */
-    padding-left: 10px; padding-bottom: 8px;
+    padding-left: 10px; 
+    padding-bottom: 10px;
     font-size: 35px;
     display: inline-block;
     width: 5%;
@@ -35,13 +36,15 @@ body    {
 .top-header {
     padding-top: 5px;
     padding-left: 14px; 
+    padding-right: 8px;
     font-size: 9px;
     display: inline-block   ;
     width: 40%; text-align: left;
 }
 .right-header {
     float: right; 
-    padding-right: 10px; padding-top: 20px;
+    padding-right: 4px; 
+    padding-top: 20px;
     font-size: 14px;
     display: inline-block   ;
     width: 5%;
