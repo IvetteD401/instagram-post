@@ -1,3 +1,7 @@
+/* main div divides content from body;
+ padding aligns content/icons to allow better readablity; 
+ assinging a width % to inner divs allow them to read better on projects; */
+
 body    {
     background: black;
 }
@@ -6,9 +10,10 @@ body    {
     background: white; 
     width: 350px; 
     height: 475px; 
-    margin: auto;
-    position: absolute;
-    top: 10%; left: 35%;
+    margin: auto; 
+    position: relative;
+    top: 50px; 
+    /* left: 35%; */
     padding: none; 
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 8px;
@@ -46,7 +51,7 @@ body    {
     padding-right: 4px; 
     padding-top: 20px;
     font-size: 14px;
-    display: inline-block   ;
+    /* display: inline-block   ; */
     width: 5%;
 }
 .icons {
@@ -75,4 +80,11 @@ body    {
 img {
   max-width: 100%;
   height: auto;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: purple;
+    color: salmon;
+    width: 100%;
+     }
 }
